@@ -1,12 +1,8 @@
 import BasicForm from './components/BasicForm.js'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Show from './Show'
-import Chat from './components/Chat.js'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { useParams } from 'react-router-dom'
-import Edit from './Edit'
-import FullEdit from './FullEdit'
-import History from './History'
 import Home from './Home'
 
 function App() {
